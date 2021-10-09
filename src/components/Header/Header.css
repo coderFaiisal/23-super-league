@@ -1,0 +1,13 @@
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(42, 139, 218);
+  color: white;
+}
+.header-container > div > a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  margin-right: 15px;
+}

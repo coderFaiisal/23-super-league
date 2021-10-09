@@ -1,0 +1,28 @@
+.club-card {
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  width: 80%;
+  border-radius: 5px;
+}
+.club-card > img {
+  height: 100px;
+  animation-name: logo;
+  transition: all 0.5s linear;
+}
+.club-card:hover img {
+  transform: rotateY(360deg);
+}
+
+.main-button {
+  border: 1px solid gray;
+  background-color: rgb(42, 139, 218);
+  color: white;
+  border-radius: 15px;
+  padding: 5px 25px 5px 25px;
+  transition: all 0.2s linear;
+}
+.main-button:hover {
+  background-color: rgb(12, 91, 156);
+  transform: scale(1.1);
+}
